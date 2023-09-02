@@ -8,18 +8,18 @@
          "height": 1400,
          "alignment": "TopLeft"
       },
-      "yclosed": 215,
-      "yopen": 1400,
+      "yclosed": 0,
+      "yopen": 1600,
       "Widgets": [
          {
             "Widget": {
                "Type": "Base",
                "Name": "Background",
                "ViewPort": {
-                  "xorigin": 0,
+                  "xorigin": 2080,
                   "yorigin": 0,
-                  "width": 1910,
-                  "height": 1400,
+                  "width": 2000,
+                  "height": 1375,
                   "alignment": "TopLeft"
                },
                "ZPlane": 5,
@@ -30,7 +30,7 @@
                         "r": 0,
                         "g": 0,
                         "b": 0,
-                        "a": 0
+                        "a": 0.75
                      }
                   }
                },
@@ -40,86 +40,30 @@
                         "Type": "Surround",
                         "Name": "TableBackground",
                         "ViewPort": {
-                           "xorigin": 1200,
-                           "yorigin": 165,
+                           "xorigin": 970,
+                           "yorigin": 100,
                            "width": 1740,
-                           "height": 1275,
+                           "height": 1225,
                            "alignment": "TopCentre"
                         },
                         "ZPlaneLocalOffset": 1,
                         "Box": {
-                           "xorigin": 20,
-                           "yorigin": 50,
-                           "width": 1740,
-                           "height": 1175,
+                           "xorigin": 0,
+                           "yorigin": 0,
+                           "width": 1700,
+                           "height": 1125,
                            "alignment": "TopLeft",
                            "gridstep": 100,
-                           "drawbox": true
+                           "drawbox": false
                         },
-                                        "StateMaterials": {
-                  "StateTLDisabled": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateTCDisabled": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateTRDisabled": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateCLDisabled": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateCCDisabled": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateCRDisabled": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateBLDisabled": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateBCDisabled": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateBRDisabled": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateTLNormal": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateTCNormal": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateTRNormal": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateCLNormal": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateCCNormal": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateCRNormal": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateBLNormal": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateBCNormal": {
-                    "Material": "BlackPanel_CC"
-                  },
-                  "StateBRNormal": {
-                    "Material": "BlackPanel_CC"
-                  }
-                },
                         "ChildWidgets": [
                            {
                               "Widget": {
                                  "Type": "MarkUpTextBox",
                                  "Name": "CivName",
                                  "ViewPort": {
-                                    "xorigin": 80,
-                                    "yorigin": 210,
+                                    "xorigin": 0,
+                                    "yorigin": 70,
                                     "width": 600,
                                     "height": 50,
                                     "alignment": "TopLeft"
@@ -185,10 +129,10 @@
                                  "Type": "MarkUpTextBox",
                                  "Name": "CivDesc",
                                  "ViewPort": {
-                        "xorigin": 80,
-                        "yorigin": 260,
-                        "width": 1500,
-                        "height": 100,
+                                    "xorigin": 0,
+                                    "yorigin": 120,
+                                    "width": 1500,
+                                    "height": 100,
                                     "alignment": "TopLeft"
                                  },
                                  "TextBox": {
@@ -252,10 +196,10 @@
                                  "Type": "MarkUpTextBox",
                                  "Name": "CivBonuses",
                                  "ViewPort": {
-                        "xorigin": 80,
-                        "yorigin": 340,
-                        "width": 1200,
-                        "height": 1500,
+                                    "xorigin": 0,
+                                    "yorigin": 200,
+                                    "width": 1200,
+                                    "height": 1500,
                                     "alignment": "TopLeft"
                                  },
                                  "TextBox": {
@@ -464,10 +408,10 @@
                                  "Type": "Label",
                                  "Name": "InfantryTechs",
                                  "ViewPort": {
-                        "xorigin": 550,
-                        "yorigin": 270,
-                        "width": 1120,
-                        "height": 300,
+                                    "xorigin": 550,
+                                    "yorigin": 270,
+                                    "width": 1120,
+                                    "height": 300,
                                     "alignment": "CentreLeft"
                                  },
                                  "StateMaterials": {
@@ -727,97 +671,121 @@
                                        }
                                     },
                                     {
-                          "Widget": {
-                            "Type": "TechTreeButton",
-                            "Name": "Button11",
-                            "ViewPort": {
-                              "xorigin": 300,
-                              "yorigin": 0,
-                              "width": 70,
-                              "height": 65,
-                              "alignment": "TopLeft"
-                            },
-                            "Help": "Wood Upgrade",
-                            "IconValues": [
-                              {"TechId": 202 },
-                              {"TechId": 203 },
-                              {"TechId": 221 }
-                            ]
-                          }
-                        },
-                        {
-                          "Widget": {
-                            "Type": "TechTreeButton",
-                            "Name": "Button12",
-                            "ViewPort": {
-                              "xorigin": 375,
-                              "yorigin": 0,
-                              "width": 70,
-                              "height": 65,
-                              "alignment": "TopLeft"
-                            },
-                            "Help": "Farm Upgrade",
-                            "IconValues": [
-                              {"TechId": 14 },
-                              {"TechId": 13 },
-                              {"TechId": 12 }
-                            ]
-                          }
-                        },
-                        {
-                          "Widget": {
-                            "Type": "TechTreeButton",
-                            "Name": "Button13",
-                            "ViewPort": {
-                              "xorigin": 450,
-                              "yorigin": 0,
-                              "width": 70,
-                              "height": 65,
-                              "alignment": "TopLeft"
-                            },
-                            "Help": "Wheelbarrow",
-                            "IconValues": [
-                              {"TechId": 213 },
-                              {"TechId": 249 }
-                            ]
-                          }
-                        },
-                        {
-                          "Widget": {
-                            "Type": "TechTreeButton",
-                            "Name": "Button14",
-                            "ViewPort": {
-                              "xorigin": 525,
-                              "yorigin": 0,
-                              "width": 70,
-                              "height": 65,
-                              "alignment": "TopLeft"
-                            },
-                            "Help": "Gold Upgrade",
-                            "IconValues": [
-                              {"TechId": 55 },
-                              {"TechId": 182 }
-                            ]
-                          }
-                        },
-                        {
-                          "Widget": {
-                            "Type": "TechTreeButton",
-                            "Name": "Button15",
-                            "ViewPort": {
-                              "xorigin": 600,
-                              "yorigin": 0,
-                              "width": 70,
-                              "height": 65,
-                              "alignment": "TopLeft"
-                            },
-                            "Help": "Stone Upgrade",
-                            "IconValues": [
-                              {"TechId": 278 },
-                              {"TechId": 279 }
-                            ]
-                          }
-                        }
+                                       "Widget": {
+                                          "Type": "TechTreeButton",
+                                          "Name": "Button11",
+                                          "ViewPort": {
+                                             "xorigin": 300,
+                                             "yorigin": 0,
+                                             "width": 70,
+                                             "height": 65,
+                                             "alignment": "TopLeft"
+                                          },
+                                          "Help": "Wood Upgrade",
+                                          "IconValues": [
+                                             {
+                                                "TechId": 202
+                                             },
+                                             {
+                                                "TechId": 203
+                                             },
+                                             {
+                                                "TechId": 221
+                                             }
+                                          ]
+                                       }
+                                    },
+                                    {
+                                       "Widget": {
+                                          "Type": "TechTreeButton",
+                                          "Name": "Button12",
+                                          "ViewPort": {
+                                             "xorigin": 375,
+                                             "yorigin": 0,
+                                             "width": 70,
+                                             "height": 65,
+                                             "alignment": "TopLeft"
+                                          },
+                                          "Help": "Farm Upgrade",
+                                          "IconValues": [
+                                             {
+                                                "TechId": 14
+                                             },
+                                             {
+                                                "TechId": 13
+                                             },
+                                             {
+                                                "TechId": 12
+                                             }
+                                          ]
+                                       }
+                                    },
+                                    {
+                                       "Widget": {
+                                          "Type": "TechTreeButton",
+                                          "Name": "Button13",
+                                          "ViewPort": {
+                                             "xorigin": 450,
+                                             "yorigin": 0,
+                                             "width": 70,
+                                             "height": 65,
+                                             "alignment": "TopLeft"
+                                          },
+                                          "Help": "Wheelbarrow",
+                                          "IconValues": [
+                                             {
+                                                "TechId": 213
+                                             },
+                                             {
+                                                "TechId": 249
+                                             }
+                                          ]
+                                       }
+                                    },
+                                    {
+                                       "Widget": {
+                                          "Type": "TechTreeButton",
+                                          "Name": "Button14",
+                                          "ViewPort": {
+                                             "xorigin": 525,
+                                             "yorigin": 0,
+                                             "width": 70,
+                                             "height": 65,
+                                             "alignment": "TopLeft"
+                                          },
+                                          "Help": "Gold Upgrade",
+                                          "IconValues": [
+                                             {
+                                                "TechId": 55
+                                             },
+                                             {
+                                                "TechId": 182
+                                             }
+                                          ]
+                                       }
+                                    },
+                                    {
+                                       "Widget": {
+                                          "Type": "TechTreeButton",
+                                          "Name": "Button15",
+                                          "ViewPort": {
+                                             "xorigin": 600,
+                                             "yorigin": 0,
+                                             "width": 70,
+                                             "height": 65,
+                                             "alignment": "TopLeft"
+                                          },
+                                          "Help": "Stone Upgrade",
+                                          "IconValues": [
+                                             {
+                                                "TechId": 278
+                                             },
+                                             {
+                                                "TechId": 279
+                                             }
+                                          ]
+                                       }
+                                    }
                                  ]
                               }
                            },
@@ -1429,22 +1397,10 @@
                                           "IconValues": [
                                              {
                                                 "TechId": 714,
-                                                "UnitId": 1370,
-                                                "CivIds": [
-                                                   12,
-                                                   33,
-                                                   34
-                                                ],
-                                                "FullTechTree": true
+                                                "UnitId": 1370
                                              },
                                              {
-                                                "TechId": 715,
-                                                "CivIds": [
-                                                   12,
-                                                   33,
-                                                   34
-                                                ],
-                                                "FullTechTree": true
+                                                "TechId": 715
                                              }
                                           ]
                                        }
@@ -2457,22 +2413,10 @@
                                                 "UnitId": 79
                                              },
                                              {
-                                                "TechId": 140,
-                                                "ExcludeCivs": true,
-                                                "CivIds": [ 18 ]
+                                                "TechId": 140
                                              },
                                              {
-                                                "TechId": 442,
-                                                "CivIds": [ 18 ]
-                                             },
-                                             {
-                                                "TechId": 63,
-                                                "ExcludeCivs": true,
-                                                "CivIds": [ 18 ]
-                                             },
-                                             {
-                                                "TechId": 443,
-                                                "CivIds": [ 18 ]
+                                                "TechId": 63
                                              }
                                           ]
                                        }
@@ -2491,13 +2435,7 @@
                                           "Help": "Bombard Tower",
                                           "IconValues": [
                                              {
-                                                "TechId": 64,
-                                                "ExcludeCivs": true,
-                                                "CivIds": [ 18 ]
-                                             },
-                                             {
-                                                "TechId": 444,
-                                                "CivIds": [ 18 ]
+                                                "TechId": 64
                                              }
                                           ]
                                        }
@@ -2602,15 +2540,42 @@
                            }
                         ]
                      }
-                  },
+                  }
+               ]
+            }
+         },
+         {
+            "Widget": {
+               "Type": "Base",
+               "Name": "Background",
+               "ViewPort": {
+                  "xorigin": 0,
+                  "yorigin": 95,
+                  "width": 2400,
+                  "height": 117,
+                  "alignment": "TopLeft"
+               },
+               "ZPlane": 0,
+               "StateMaterials": {
+                  "StateNormal": {
+                     "Material": "TransparentColor",
+                     "Color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0,
+                        "a": 0
+                     }
+                  }
+               },
+               "ChildWidgets": [
                   {
                      "Widget": {
                         "Type": "Surround",
                         "Name": "TableBackground",
                         "ViewPort": {
                            "xorigin": 0,
-                           "yorigin": 95,
-                           "width": 1740,
+                           "yorigin": 0,
+                           "width": 2840,
                            "height": 200,
                            "alignment": "TopLeft"
                         },
@@ -2618,7 +2583,7 @@
                         "Box": {
                            "xorigin": 0,
                            "yorigin": 0,
-                           "width": 1740,
+                           "width": 2840,
                            "height": 1125,
                            "alignment": "TopLeft",
                            "gridstep": 100,
@@ -2632,8 +2597,8 @@
                                  "ViewPort": {
                                     "xorigin": 0,
                                     "yorigin": 0,
-                                    "width": 1660,
-                                    "height": 100,
+                                    "width": 2460,
+                                    "height": 130,
                                     "alignment": "TopLeft"
                                  },
                                  "StateMaterials": {
@@ -2901,11 +2866,6 @@
                         ]
                      }
                   }
-                  
-                  
-               
-               
-                           
                ]
             }
          }

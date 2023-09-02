@@ -1,1 +1,7 @@
-{"Author":"yesidpol","CacheStatus":0,"Description":"<p>Shows the status of economic and blacksmith technologies- The economic tech status is shown below each resource.- Shows all blacksmith tech status</p>","Title":"Small Indicators of Researched Technologies"}
+{"Author":"yesidpol","CacheStatus":0,"Description":"<div><p>Shows the status of economic and blacksmith technologies</p>
+<ul><li>    The economic tech status is shown below each resource</li>
+<li>    Shows all blacksmith tech status</li></ul>
+<p>
+Check the source code and report any issue in <a href='https://github.com/yesidpol/aoe2_technology_indicators.git'>https://github.com/yesidpol/aoe2_technology_indicators.git</a>
+</p>
+</div>","Title":"Small Indicators of Researched Technologies"}
